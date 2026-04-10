@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(30,30,30);
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
+}
+
+.title-container{
+    display: inline-block;
+
+}
+
+.brand-title{
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-family: Verdana;
+    position: relative;
+    left: 20px;
+}
+
+.links-container{
+    float: right;
+    position: relative;
+    top: 4px;
+    left: -15px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+.link:hover{
+    color: gold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background: lightgray;
+    padding: 130px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 50px auto;
+    font-family: Verdana;
+}
+
+.left {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 0%; 
+}
+
+.left h1 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.subtitle {
+    color: black;
+    font-size: 14px;
+}
+
+.tags span {
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 15px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.card {
+    background: rgb(30,30,30);
+    color: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.info-box {
+    background: rgb(30,30,30);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+}

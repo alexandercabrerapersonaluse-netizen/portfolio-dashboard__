@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Upload - Page</title>
+        <link rel="stylesheet" href="style-2.css">
+        <script defer src="script.js"></script>
+    </head>
+        
+    <body>
+        
+        <nav>
+
+            <div class="title-container">
+                <h2 class="brand-title">My Portfolio</h2>
+            </div>
+
+            <div class="links-container">
+                <a class="link" href="index.html">Home</a>
+                <a class="link" href="dashboard.html">Dashboard</a>
+                <a class="link" href="upload.html">Upload</a>
+            </div>
+
+        </nav>
+
+        <h1 style="text-align: center;">Upload Your Activities Here:</h1>
+
+
+        <div class="upload-container">
+
+            <div class="box">
+                <h3>Quizes Here:</h3>
+                <input type="file" onchange="handleUpload(event, 'quiz')">
+            </div>
+
+            <div class="box">
+                <h3>Lab Works Here:</h3>
+                <input type="file" onchange="handleUpload(event, 'lab')">
+            </div>
+
+            <div class="box">
+                <h3>Periodical Exam Here:</h3>
+                <input type="file" onchange="handleUpload(event, 'exam')">
+            </div>
+
+        </div>
+
+    </body>
+
+</html> 

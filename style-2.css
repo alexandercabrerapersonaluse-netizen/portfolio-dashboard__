@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: Verdana;
+}
+
+nav{
+    background-color: rgb(30,30,30);
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
+}
+
+.title-container{
+    display: inline-block;
+
+}
+
+.brand-title{
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-family: Verdana;
+    position: relative;
+    left: 20px;
+}
+
+.links-container{
+    float: right;
+    position: relative;
+    top: 4px;
+    left: -15px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+.link:hover{
+    color: gold;
+}
+
+.upload-container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  background: rgb(139, 121, 121);
+  padding: 300px 50px;
+  border-radius: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #eee;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 75%;
+}
+
+button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.stats{
+    text-align: center;
+}
+
+.filters{
+    text-align: center;
+}
